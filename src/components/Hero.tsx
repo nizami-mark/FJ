@@ -20,12 +20,18 @@ export function Hero() {
               Specialized protocols for Type 2 Diabetes, PCOS, and Fatty Liver reversal through clinical nutrition and metabolic resetting.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <button className="bg-accent text-primary px-8 py-4 rounded-lg font-bold hover:bg-accent-hover transition-colors">
+              <a 
+                href="#pricing"
+                className="bg-accent text-primary px-8 py-4 rounded-lg font-bold hover:bg-accent-hover transition-colors inline-block"
+              >
                 Explore Plans
-              </button>
-              <button className="border-2 border-white/20 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition-colors">
+              </a>
+              <a 
+                href="#contact"
+                className="border-2 border-white/20 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block"
+              >
                 Book Consultation
-              </button>
+              </a>
             </div>
           </motion.div>
           

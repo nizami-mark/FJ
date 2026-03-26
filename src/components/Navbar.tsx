@@ -23,9 +23,12 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
-            <button className="bg-[#4d6a36] text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#3d542b] transition-colors">
+            <a 
+              href="#contact"
+              className="bg-[#4d6a36] text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#3d542b] transition-colors inline-block"
+            >
               Book Free Consultation
-            </button>
+            </a>
           </div>
           
           <div className="md:hidden">

@@ -67,16 +67,19 @@ export function Pricing() {
                 ))}
               </ul>
 
-              <button className={cn(
-                "w-full py-4 rounded-xl font-bold transition-all",
-                plan.highlight 
-                  ? "bg-accent text-primary hover:bg-accent-hover" 
-                  : plan.dark 
+              <a 
+                href="#contact"
+                className={cn(
+                  "w-full py-4 rounded-xl font-bold transition-all text-center inline-block",
+                  plan.highlight 
                     ? "bg-accent text-primary hover:bg-accent-hover" 
-                    : "bg-slate-200 text-slate-700 hover:bg-slate-300"
-              )}>
+                    : plan.dark 
+                      ? "bg-accent text-primary hover:bg-accent-hover" 
+                      : "bg-slate-200 text-slate-700 hover:bg-slate-300"
+                )}
+              >
                 Get Started
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>
