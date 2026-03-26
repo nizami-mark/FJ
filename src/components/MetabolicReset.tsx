@@ -48,7 +48,7 @@ export function MetabolicReset() {
           >
             <div className="overflow-hidden">
               <img
-                src="/src/components/Diet Plan.jpg"
+                src="https://lh3.googleusercontent.com/d/1lmz1g7OQEGu09Gx4JqEB_B7mFEgRkCIt"
                 alt="Diet Plan"
                 className="w-full h-auto mix-blend-multiply block"
                 referrerPolicy="no-referrer"

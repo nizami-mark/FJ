@@ -58,7 +58,7 @@ export function ContactForm() {
             
             <div className="hidden lg:block relative h-full min-h-[600px]">
               <img
-                src="/src/components/12 (1).jpg"
+                src="https://lh3.googleusercontent.com/d/18IGkzJ1g0_ar-PCfZlbsWy_1TnB5NwJh"
                 alt="Your Reversal"
                 className="absolute inset-0 w-full h-full object-cover mix-blend-multiply"
                 referrerPolicy="no-referrer"

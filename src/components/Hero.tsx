@@ -37,7 +37,7 @@ export function Hero() {
           >
             <div className="relative z-10">
               <img
-                src="/src/components/FJ_1.png"
+                src="https://lh3.googleusercontent.com/d/14BFuWgF_-XTgQgYFtwE3gmPzo8V7NllD"
                 alt="Dr. Farooq Jahangir"
                 className="w-full h-auto rounded-t-2xl grayscale-0 hover:grayscale-0 transition-all duration-500 block"
                 referrerPolicy="no-referrer"

@@ -23,7 +23,7 @@ export function Symptoms() {
             className="rounded-3xl overflow-hidden shadow-2xl"
           >
             <img
-              src="/src/Metabolic reset.png"
+              src="https://lh3.googleusercontent.com/d/1lmz1g7OQEGu09Gx4JqEB_B7mFEgRkCIt"
               alt="Metabolic Reset"
               className="w-full h-auto"
               referrerPolicy="no-referrer"
