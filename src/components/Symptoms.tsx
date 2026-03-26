@@ -23,8 +23,8 @@ export function Symptoms() {
             className="rounded-3xl overflow-hidden shadow-2xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800"
-              alt="Healthy Lifestyle"
+              src="/src/Metabolic reset.png"
+              alt="Metabolic Reset"
               className="w-full h-auto"
               referrerPolicy="no-referrer"
             />

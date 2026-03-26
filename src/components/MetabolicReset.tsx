@@ -3,7 +3,7 @@ import { METABOLIC_STEPS } from '../constants';
 
 export function MetabolicReset() {
   return (
-    <section id="about" className="py-24 bg-white overflow-hidden">
+    <section id="about" className="pt-24 pb-0 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -40,21 +40,22 @@ export function MetabolicReset() {
           </motion.div>
           
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="relative"
+            transition={{ duration: 0.8 }}
+            className="relative self-end"
           >
-            <div className="rounded-3xl overflow-hidden shadow-2xl">
+            <div className="overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800"
-                alt="Metabolic Reset"
-                className="w-full h-auto"
+                src="/src/components/Diet Plan.jpg"
+                alt="Diet Plan"
+                className="w-full h-auto mix-blend-multiply block"
                 referrerPolicy="no-referrer"
               />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-slate-100 max-w-[200px]">
+            <div className="absolute bottom-12 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-slate-100 max-w-[200px] z-20">
               <p className="text-sm font-bold text-primary">
                 "Practical, long-term habits that ensure your health transformation is permanent."
               </p>

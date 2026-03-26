@@ -4,9 +4,9 @@ export function ContactForm() {
   return (
     <section id="contact" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-[40px] shadow-2xl overflow-hidden border border-slate-100">
+        <div className="bg-slate-50 rounded-[40px] shadow-2xl overflow-hidden border border-slate-200/50">
           <div className="grid lg:grid-cols-2 items-center">
-            <div className="p-12 lg:p-20">
+            <div className="p-12 lg:p-20 bg-white lg:bg-transparent">
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
                 Your Reversal Starts Here
               </h2>
@@ -22,7 +22,7 @@ export function ContactForm() {
                   <input
                     type="text"
                     placeholder="John Doe"
-                    className="w-full px-6 py-4 bg-slate-50 rounded-xl border border-slate-100 focus:outline-none focus:border-accent transition-colors"
+                    className="w-full px-6 py-4 bg-white rounded-xl border border-slate-100 focus:outline-none focus:border-accent transition-colors"
                   />
                 </div>
                 
@@ -33,7 +33,7 @@ export function ContactForm() {
                   <input
                     type="text"
                     placeholder="+92 300 1234567"
-                    className="w-full px-6 py-4 bg-slate-50 rounded-xl border border-slate-100 focus:outline-none focus:border-accent transition-colors"
+                    className="w-full px-6 py-4 bg-white rounded-xl border border-slate-100 focus:outline-none focus:border-accent transition-colors"
                   />
                 </div>
                 
@@ -41,7 +41,7 @@ export function ContactForm() {
                   <label className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">
                     Interested Plan
                   </label>
-                  <select className="w-full px-6 py-4 bg-slate-50 rounded-xl border border-slate-100 focus:outline-none focus:border-accent transition-colors appearance-none">
+                  <select className="w-full px-6 py-4 bg-white rounded-xl border border-slate-100 focus:outline-none focus:border-accent transition-colors appearance-none">
                     <option>Select a plan</option>
                     <option>General Fat Loss Plan</option>
                     <option>Diabetes Reversal Plan</option>
@@ -58,9 +58,9 @@ export function ContactForm() {
             
             <div className="hidden lg:block relative h-full min-h-[600px]">
               <img
-                src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800"
-                alt="Dr. Farooq Jahangir"
-                className="absolute inset-0 w-full h-full object-cover"
+                src="/src/components/12 (1).jpg"
+                alt="Your Reversal"
+                className="absolute inset-0 w-full h-full object-cover mix-blend-multiply"
                 referrerPolicy="no-referrer"
               />
             </div>

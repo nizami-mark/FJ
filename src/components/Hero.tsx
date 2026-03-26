@@ -2,13 +2,14 @@ import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-primary overflow-hidden">
+    <section className="relative pt-28 pb-0 lg:pt-40 lg:pb-0 bg-primary overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-end">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="pb-20 lg:pb-32"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
               Reverse Chronic <br />
@@ -29,16 +30,16 @@ export function Hero() {
           </motion.div>
           
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="relative"
           >
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
+                src="/src/components/FJ_1.png"
                 alt="Dr. Farooq Jahangir"
-                className="w-full h-auto rounded-2xl grayscale-0 hover:grayscale-0 transition-all duration-500"
+                className="w-full h-auto rounded-t-2xl grayscale-0 hover:grayscale-0 transition-all duration-500 block"
                 referrerPolicy="no-referrer"
               />
             </div>
